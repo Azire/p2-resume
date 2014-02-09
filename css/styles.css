@@ -78,9 +78,7 @@ h5 {
 }
 
 .about p{
-	background: #2e2e2e;
-	color: rgb(193, 82, 97);
-	padding: 20px 10px;
+	padding: 20px;
 }
 
 
@@ -95,20 +93,13 @@ h5 {
 	color: rgb(214, 146, 77);
 }
 
-.photo {
-	color: rgb(214, 146, 77);
-	background: #2e2e2e;
-	margin: 0;
-}
-
-.photo h5{
-	color: rgb(214, 146, 77);
-	padding: 10px 0;
+.photo{
+	padding: 0 0 10px 0;
 }
 
 .portfolio {
 	background: #2e2e2e;
-	padding: 10px 0;
+	padding: 20px 0 10px 0;
 }
 
 .event h3, .art h3{
@@ -170,6 +161,16 @@ h5 {
 	color: rgb(36, 150, 207);
 }
 
+.misc {
+	background: lightgrey;
+	border-radius: 30px;
+	padding: 0 0 10px 0;
+}
+
+.misc h2{
+	color: lightgrey;
+}
+
 li {
 	list-style: none;
 	font-size: .9em;
@@ -181,9 +182,14 @@ ul{
 	margin: 5px 0 0 0;
 }
 
+a, a:visited, a:link {
+	color: #2e2e2e;
+	text-decoration: none;
+}
 
-
-
+a:hover{
+	font-weight: bold;
+}
 
 /* Show Grid */
 .showgrid {
