@@ -1,7 +1,124 @@
 /* Your Website Styles */
 body{
 	background: #2e2e2e;
+	font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+	font-weight: lighter;
+	font-size: 2.5em;
+	margin: 0;
+	color: rgb(154, 175, 105);
+	background: #2e2e2e;
+	width: 405px;
+	padding: 0 0 10px 20px;
+	border-radius:0  0 20px 0;
+}
+
+h2{
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 30px 30px 30px 0;
+}
+
+h3 {
+	margin: 10px 0 0 10px;
+}
+
+h4{
+	color: #2e2e2e;
+	margin: 0 0 5px 20px;
+	font-size: 1.2em;
+}
+
+h5 {
+	margin: 0 0 0 10px;
+	color: #2e2e2e;
+}
+ 
+.head {
+	background: rgb(154, 175, 105);
+	height: 200px;
+	margin: 20px 0 20px 0;
+	border-radius: 30px;
+}
+.head li{
+	list-style-type: none;
+	color: grey;
+	margin: 0;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.head ul{
+	margin: 0 0 0 20px;
+	text-align: left;
+	padding: 5px 0;
+}
+
+.head img{
+	float: right;
+	height: 200px;
+	width: 200px;
+	border-radius: 0 30px 30px 0;
+}
+
+.about h2{
+	background: rgb(193, 82, 97);
+}
+
+.about p{
+	background: rgb(193, 82, 97);
+	padding: 20px;
+	border-radius: 0 30px 30px 30px;
+}
+.box1{
+	background: orange;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.work {
+	padding: 0 0 30px 0;
+	background: rgb(214, 146, 77);
+	border-radius: 30px;
+}
+.work h2{
+	background: rgb(214, 146, 77);
+}
+
+.photo {
+	color: rgb(214, 146, 77);
+	background: #2e2e2e;
+}
+
+.wsuw {
+	position: relative;
+	height: 100%;
+	background: rgb(214, 146, 77);
+	border-radius:  0 10px 0 30px;
+}
+
+.food{
+	background: rgb(214, 146, 77);
+	border-radius:  10px 0 30px 0;
+}
+
+li {
+	list-style: none;
+	font-size: .9em;
+	margin: 0 0 4px 10px;
+}
+
+ul{
+	padding: 0 0 5px 5px;
+	margin: 5px 0 0 0;
+}
+
+
+
+
 
 /* Show Grid */
 .showgrid {
