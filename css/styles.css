@@ -43,7 +43,7 @@ h5 {
 	background: rgb(154, 175, 105);
 	height: 200px;
 	margin: 20px 0 20px 0;
-	border-radius: 30px;
+	border-radius: 10px;
 }
 .head li{
 	list-style-type: none;
@@ -63,14 +63,14 @@ h5 {
 	float: right;
 	height: 200px;
 	width: 200px;
-	border-radius: 0 30px 30px 0;
+	border-radius: 0 10px 10px 0;
 }
 
 
 /* About */
 .about{
 	background: rgb(193, 82, 97);
-	border-radius: 30px;
+	border-radius: 10px;
 }
 
 .about h2{
@@ -86,7 +86,7 @@ h5 {
 .work {
 	padding: 0 0 30px 0;
 	background: rgb(214, 146, 77);
-	border-radius: 30px;
+	border-radius: 10px;
 }
 
 .work h2{
@@ -146,7 +146,7 @@ h5 {
 	border-radius: 0 20px 0 20px;
 }
 
-.food{
+.food, .sfcc, .wsu, .code, .like, .software{
 	box-shadow: inset 1px 0 0 #2e2e2e;
 }
 
@@ -154,7 +154,8 @@ h5 {
 /* Education */
 .edu {
 	background: rgb(36, 150, 207);
-	border-radius: 30px;
+	border-radius: 10px;
+	padding: 0 0 10px 0;
 }
 
 .edu h2{
@@ -163,7 +164,7 @@ h5 {
 
 .misc {
 	background: lightgrey;
-	border-radius: 30px;
+	border-radius: 10px;
 	padding: 0 0 10px 0;
 }
 
