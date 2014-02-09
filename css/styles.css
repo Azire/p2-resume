@@ -22,6 +22,7 @@ h2{
 	background: #2e2e2e;
 	border-radius: 0 30px 30px 0;
 	width: 800px;
+	font-weight: lighter;
 }
 
 h3 {
@@ -113,6 +114,7 @@ h5 {
 	width: 175px;
 	padding: 5px 20px;
 	border-radius: 0 20px 20px 0;
+	font-weight: lighter;
 }
 
 .portrait h3, .night h3{
@@ -124,6 +126,7 @@ h5 {
 	width: 175px;
 	padding: 5px 20px;
 	border-radius: 20px 0 0 20px;
+	font-weight: lighter;
 }
 
 .event{
